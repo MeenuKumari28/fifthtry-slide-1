@@ -310,18 +310,6 @@ height.fixed.px: 24
 
 -- end: ftd.column
 
--- ftd.column:
-
--- ftd.image:
-src: $assets.files.assets.full-screen.svg
-src if { presentation.mouse-in-full } : $assets.files.assets.full-screen-active.svg
-$on-click$: $ftd.set-bool($a = $show-full-screen, v = true)
-$on-mouse-enter$: $ftd.set-bool($a = $presentation.mouse-in-full, v = true)
-$on-mouse-leave$: $ftd.set-bool($a = $presentation.mouse-in-full, v = false)
-cursor: pointer
-
--- end: ftd.column
-
 -- end: ftd.row
 
 -- end: ftd.column
