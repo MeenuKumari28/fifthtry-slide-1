@@ -1,6 +1,4 @@
 -- import: fastn-community.github.io/dark-mode-switcher as dms
--- import: fastn-community.github.io/roboto-typography
--- import: fastn-community.github.io/dark-flame-cs
 
 -- integer $active-slide: 1
 -- boolean $show-full-screen: true
@@ -68,8 +66,8 @@ dolor sit met consedur solod ermnerlor.
 -- component page:
 caption title:
 children wrapper:
-ftd.type-data types: $roboto-typography.types
-ftd.color-scheme colors: $dark-flame-cs.main
+;;ftd.type-data types: $roboto-typography.types
+;;ftd.color-scheme colors: $dark-flame-cs.main
 
 -- ftd.column:
 width: fill-container
